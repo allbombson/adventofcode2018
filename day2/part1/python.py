@@ -23,7 +23,7 @@ for i in hashes:
         doubles += 1
     if 3 in letters:
         tripples += 1
-
+#Print outcome
 print('Part1:')
 print('Doubles:',doubles)
 print('Tripples:',tripples)
