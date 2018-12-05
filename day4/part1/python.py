@@ -35,5 +35,7 @@ with open("input2.txt", "r") as f:
     counter = Counter(guards[part1])
     #Define minute
     minute = counter.most_common()[0][0]
+    #Define anwser
+    part1ANS = part1 * minute
     #Print anwser
-    print('Part 1:',part1 * minute)
+    print('Part 1:',part1ANS)
